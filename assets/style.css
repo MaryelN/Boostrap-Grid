@@ -2,3 +2,13 @@
 .row .col { 
   border: solid white 1px;
 }
+
+.list-categories {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+.list-categories .categorie {
+white-space: nowrap;
+margin: 5px 15px;
+}
